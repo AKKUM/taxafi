@@ -14,7 +14,7 @@ play.Project.playScalaSettings
 
 instrumentSettings
 
-ScoverageKeys.excludedPackages in ScoverageCompile := "<empty>;Reverse.*;.*AuthService.*;models/.data/..*"
+ScoverageKeys.excludedPackages in ScoverageCompile := "<empty>;Reverse.*;.*AuthService.*;models/.data/..*;view.*"
 
 ScoverageKeys.minimumCoverage := 80
 
