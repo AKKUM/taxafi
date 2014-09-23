@@ -1,4 +1,4 @@
-package utils
+package common
 
 /**
  * Created by akhilesh.i.kumar on 18/09/2014.
