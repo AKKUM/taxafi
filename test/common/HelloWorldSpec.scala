@@ -19,7 +19,7 @@ class HelloWorldSpec extends Specification {
 
     "retutn the correct value" in new WithApplication{
       var multiplyService = new HelloWorld()
-    //  multiplyService.multiplyValue(3,3) must equalTo(9)
+      multiplyService.multiplyValue(3,3) must equalTo(9)
     }
 
   }
